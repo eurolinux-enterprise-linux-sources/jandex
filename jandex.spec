@@ -3,7 +3,7 @@
 
 Name:             jandex
 Version:          1.0.3
-Release:          7%{?dist}
+Release:          8%{?dist}
 Summary:          Java Annotation Indexer
 Group:            Development/Libraries
 License:          LGPLv2+
@@ -75,6 +75,9 @@ install -pm 644 pom.xml $RPM_BUILD_ROOT%{_mavenpomdir}/JPP-%{name}.pom
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.3-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.3-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
